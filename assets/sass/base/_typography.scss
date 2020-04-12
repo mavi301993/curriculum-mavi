@@ -1,4 +1,22 @@
 body {
-  font-family: $lato;
-  color:$smoky-black;
+  font-family: $raleway;
+  color:$raisin-black;
+}
+
+h2{
+font-size: $xxx-large;
+font-weight: $bold;
+text-align: center;
+}
+
+h3{
+  font-size: $xx-large;
+  font-weight: $bold;
+  text-align: left;
+}
+
+p{
+  font-size: $small;
+  font-weight: $regular;
+  text-align: left;
 }

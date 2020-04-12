@@ -1,0 +1,117 @@
+.prices {
+    background-image: url("../images/bg-price.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 15%;
+    color: $raisin-black;
+    height: 900px;
+
+    &__title {
+        color: $white;
+        margin-bottom: 3%;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__card {
+        background-color: $white;
+        border-radius: 2px;
+        padding: 4%;
+        width: 30%;
+        margin-bottom: 5rem;
+        text-align: center;
+
+        &--plan {
+            text-align: left;
+            font-size: $x-large;
+            font-weight: $regular;
+            margin-bottom: 5%;
+        }
+
+        &--price {
+            text-align: left;
+            font-size: $xxxx-large;
+            font-weight: $bold;
+            margin-bottom: 5%;
+
+        }
+    }
+
+    &__item {
+        margin-bottom: 25%;
+    }
+
+    &__button {
+
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+}
+
+ul {
+    margin-bottom: 40%;
+    margin: 3%;
+    text-align: left;
+}
+
+li {
+    font-size: $medium;
+    font-weight: $regular;
+    margin-bottom: 4%;
+}
+
+@media only screen and (max-width: 768px){
+    .prices {
+        height: 1200px;
+        padding-top: 15rem;
+
+        &__container {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            width: 50%;
+
+        }
+
+        &__card {
+            width: auto;
+            text-align: center;
+            padding: 6%;
+    
+
+            &--plan {
+                text-align: left;
+                font-size: $large;
+                font-weight: $regular;
+                margin-bottom: 5%;
+            }
+
+            &--price {
+                text-align: left;
+                font-size: $xx-large;
+                font-weight: $bold;
+                margin-bottom: 5%;
+
+            }
+        }
+
+        &__button {
+
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+
+        &__item {
+            margin-bottom: 15%;
+        }
+    }
+    ul {
+        margin: 1.5em;
+    }
+
+
+}

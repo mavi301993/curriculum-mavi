@@ -1,0 +1,15 @@
+.bar-graph{
+animation-name: opacity;
+animation-duration: 3s;
+animation-timing-function: ease-in;
+}
+
+@keyframes opacity {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}

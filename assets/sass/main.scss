@@ -1,4 +1,5 @@
 @import 'abstracts/variables';
-@import 'base/typography', 'base/reset';
-@import 'components/buttons';
-@import 'layout/navbar','layout/header','layout/contact','layout/experience','layout/about';
+@import 'base/typography', 'base/reset','base/keyframes';
+@import 'components/buttons','components/separator';
+@import 'layout/navbar','layout/characteristics','layout/prices','layout/contact',
+'layout/hero';

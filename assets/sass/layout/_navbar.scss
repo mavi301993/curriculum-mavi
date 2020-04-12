@@ -1,22 +1,28 @@
 .topnav {
   overflow: hidden;
-  background-color: $light-grey;
+  background-color: $white;
+}
+
+nav{
+  position: fixed;
+  width: 100vw;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: $cool-purple;
+  color: $raisin-black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  padding-top:.5em ;
 }
 
-.active {
-  background-color: white;
-  color: $cool-purple;
+.nav__item{
+  margin-top: 0.7em;
 }
+
 
 .topnav .icon {
   display: none;
@@ -80,7 +86,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;

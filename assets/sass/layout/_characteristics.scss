@@ -1,0 +1,52 @@
+.character {
+
+    &__title {
+        padding-bottom: 2em;
+    }
+
+    &__container {
+        width: 50%;
+        margin: auto;
+    }
+
+    &__icon {
+        float: left;
+    }
+
+    &__text {
+        width: 50%;
+        margin: auto;
+        padding-left: 25em;
+
+        &--title {
+            font-size: $x-large;
+        }
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+
+    .character {
+        display: flex;
+        flex-direction: column;
+
+        &__container {
+            width: 80%;
+            margin: auto;
+        }
+
+        &__text {
+            padding-left: 0.2em;
+            width: 80%;
+            margin: auto;
+
+            &--title {
+                margin-top: 10em;
+                font-size: $large;
+            }
+
+        }
+    }
+
+}
